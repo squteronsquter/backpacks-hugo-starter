@@ -1,0 +1,18 @@
+*, *::before, *:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 67.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+}
+main {
+    width:80%;
+    margin: auto;
+}
