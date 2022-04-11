@@ -7,12 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Kontakt</title>
+      <link>http://localhost:1313/page/kontakt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/page/kontakt/</guid>
+      <description>Witam na stronie: Kontakt.</description>
+    </item>
+    
+    <item>
       <title>O nas</title>
       <link>http://localhost:1313/page/onas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/page/onas/</guid>
-      <description>Witam na stronie o nas.</description>
+      <description>Witam na stronie: O nas.</description>
+    </item>
+    
+    <item>
+      <title>Sklep</title>
+      <link>http://localhost:1313/page/sklep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/page/sklep/</guid>
+      <description>Witam na stronie: Sklep.</description>
     </item>
     
   </channel>

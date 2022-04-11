@@ -4,11 +4,15 @@
   <url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/page/kontakt/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/page/onas/</loc>
   </url><url>
     <loc>http://localhost:1313/page/</loc>
+  </url><url>
+    <loc>http://localhost:1313/page/sklep/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
