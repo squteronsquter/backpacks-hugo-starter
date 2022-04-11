@@ -3,6 +3,12 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="description"
+        content="Doskonałe i lekkie plecaki od Cargo by Owee. Stylowa marka. Piękne kolory. Wytrzymałe plecaki i eleganckie.">
+    <meta name="keywords" content="cargo, cargo by owee, owee, plecaki, torby, nerki">
+    <meta name="author" content="Igor Remesz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -16,8 +22,8 @@
         <h1>{{ .Title }}</h1>
         <nav>
             <ul>
-                <li><a href="/">Start</a></li>
-                <li><a href="/onas">O nas</a></li>
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                <li><a href="/page/onas/">O nas</a></li>
                 <li><a href="/sklep">Sklep</a></li>
                 <li><a href="/kontakt">Kontakt</a></li>
             </ul>
