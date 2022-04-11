@@ -13,6 +13,14 @@ body {
     justify-content: start;
     align-self: center;
 }
+
+.constrain {
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+
+}
 ul {
     display: flex;
 }
@@ -46,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-size:1.6rem;
     line-height: 2.4rem;
-    width: 60ch;
+    max-width: 60ch;
 }
 
 table {
