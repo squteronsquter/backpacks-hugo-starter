@@ -9,10 +9,71 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    font-family: Helvetica, sans-serif;
     justify-content: start;
     align-self: center;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    padding:0.4rem 1rem;
+}
+li:first-child {
+    padding-left:0;
+}
+
+li a {
+    font-size: 2rem;
+    line-height: 2.4rem;
 }
 main {
     width:80%;
     margin: auto;
+}
+aside {
+    font-size: 1.4rem;
+    margin: 2rem 0;
+    padding:3rem;
+    border: 1px solid #ccc;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    padding:2rem 0;
+}
+p {
+    font-size:1.6rem;
+    line-height: 2.4rem;
+    width: 60ch;
+}
+
+table {
+    width:100%;
+    font-size:1.4rem;
+    line-height: 3rem;
+}
+caption {
+    text-align: left;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding:2rem 0;
+}
+hr {
+    padding: 4rem 0;
+    border: 0;
+    background-color: #fff;
+    max-height:5px;
+}
+.footer {
+    background-color: black;
+    color: #fff;
+    padding:2rem 
+}
+
+.footer a {
+    color: #fff;
 }
